@@ -14,20 +14,31 @@ import project3 from '../assets/images/project3.png'
 export default function Projects() {
     return (
         <div className="projects">
+            <br></br>
             <h1>Projects</h1>
+            <hr></hr>
             <div className='project'>
-            <img src={project1} alt="Project 1" />
-            <p>COMP125 Assignment 1 - Multiplication Table Generator</p>
+                <br></br>
+            <img className='project-pic' src={project1} alt="Project 1" />
+            <h3>COMP125 Assignment 1 - Multiplication Table Generator</h3>
             <p>My first website using javascript to create a multiplication table based on user input.</p>
+            <br></br>
+            <hr></hr>
             </div>
+            
             <div className='project'>
-            <img src={project2} alt="Project 2" />
-            <p>COMP125 Assignment 3 - BugSmasher Mini Game</p>
+                <br></br>
+            <img className='project-pic' src={project2} alt="Project 2" />
+            <h3>COMP125 Assignment 3 - BugSmasher Mini Game</h3>
             <p>Created a javascript mini game called "BugSmasher".</p>
+            <br></br>
+            <hr></hr>
             </div>
+
             <div className='project'>
-            <img src={project3} alt="Project 3" />
-            <p>COMP125 Assignment 4 - AJAX and API's</p>
+                <br></br>
+            <img className='project-pic' src={project3} alt="Project 3" />
+            <h3>COMP125 Assignment 4 - AJAX and API's</h3>
             <p>Created a javascript website using AJAX to fetch data from and API.</p>
             </div>
         </div>        

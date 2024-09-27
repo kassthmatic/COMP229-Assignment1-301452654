@@ -39,7 +39,7 @@ body {
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 3em;
   line-height: 1.1;
 }
 
@@ -75,7 +75,7 @@ button:focus-visible {
   }
 }
 
-/* Button Style "Learn More About Me"*/
+/* Button Styles */
 .btn {
   background-color: #4dab008e;
   color: white;
@@ -86,11 +86,30 @@ button:focus-visible {
 
 /* Form Styles */
 form input, form textarea {
-  display: block;
   margin: 10px 0;
 }
 
-/* Resizing Photo of Me */
+.form {
+  justify-content: center;
+}
+
+/* Resizing Photos */
 .profile-pic {
+  max-width: 35%;
+}
+
+.project-pic {
+  max-width: 60%;
+}
+
+.services {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+}
+
+.services-pic {
   max-width: 35%;
 }
