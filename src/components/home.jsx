@@ -16,7 +16,8 @@ export default function Home() {
 
             {/* Mission Statement */}
             <p>Developing clean and efficient business solutions one project at a time.</p>
-
+            <br>
+            </br>
             {/* About Me Link */}
             <Link to="/about" className="btn">Learn More About Me</Link>
         </div>

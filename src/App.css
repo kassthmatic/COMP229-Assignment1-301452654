@@ -5,7 +5,7 @@ StudentID: 301452654
 Date: September 27, 2024
 */
 
-/* Default React CSS */
+/* Default React CSS (With Colour Changes)*/
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -14,16 +14,17 @@ Date: September 27, 2024
 }
 
 .logo {
-  height: 6em;
+
+  height: 9em;
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2em #42af0ba9);
 }
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop-shadow(0 0 2em #92fb61aa);
 }
 
 @keyframes logo-spin {
